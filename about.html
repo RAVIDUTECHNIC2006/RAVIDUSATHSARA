@@ -36,6 +36,7 @@ html {
   text-align: center;
   background-color: #474e5d;
   color: white;
+
 }
 
 .container {
@@ -76,13 +77,15 @@ html {
 }
 </style>
 </head>
+
+
 <body>
     <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+    <a href="service.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
@@ -95,10 +98,10 @@ html {
     <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
-  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
   <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+  <a href="service.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SITEMAP</a>
 </div>
@@ -117,7 +120,7 @@ html {
       <div class="container">
         <h2>RAVIDU SATHSARA</h2>
         <p class="title">PAGE OWNER</p>
-        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME,CAN I HELP YOU</p>
         <p>rsathsara835@gmail.com</p>
         <p><a href="https://wa.link/3vdggl"><button class="button">Contact</button></a></p>
       </div>
@@ -128,22 +131,21 @@ html {
     <div class="card">
       <img src="RS11.png" alt="Mike" style="width:100%">
       <div class="container">
-        <h2>SATHSARA DISANAYAKA</h2><br>
+        <h2>SATHSARA DISANAYAKA</h2>
         <p class="title">Art Director</p>
-        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p><br>
         <p>rsathsara835@gmail.com</p>
         <p><a href="https://wa.link/3vdggl"><button class="button">Contact</button></a></p>
       </div>
     </div>
-  </div>
-  
+  </div> 
   <div class="column">
     <div class="card">
       <img src="RS11.png" alt="John" style="width:100%">
       <div class="container">
-        <h2>D.M.R.S.<br>VIJESUNDARA</h2><br>
+        <h2>D.M.R.S.<br>VIJESUNDARA</h2>
         <p class="title">Designer</p>
-        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p><br>
         <p>rsathsara835@gmail.com</p>
         <p><a href="https://wa.link/3vdggl"><button class="button">Contact</button></a></p>
       </div>
@@ -158,10 +160,25 @@ html {
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p class="w3-medium">Powered by <a href="https://wa.link/3vdggl" target="_blank">MY SELF</a></p>
+  <p class="w3-medium">Powered by <a href="https://wa.link/3vdggl" target="_blank">RAVIDU SATHSRA</a></p>
+  <p>Hello everybody!</p>
+  <div id="google_translate_element"></div>
+  <p>Translate this page:</p>
+  
+</footer>  
+  
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
 </footer>
- <script>
-   function myFunction() {
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
       x.className += " w3-show";
@@ -169,7 +186,7 @@ html {
       x.className = x.className.replace(" w3-show", "");
     }
   }
-     
+  
   // When the user clicks anywhere outside of the modal, close it
   var modal = document.getElementById('ticketModal');
   window.onclick = function(event) {
@@ -178,7 +195,7 @@ html {
     }
   
   }
- </script>
+</script>
 
 </body>
 </html>
