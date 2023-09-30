@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="service.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">PERSONAL INFOMTION</a>
+        <a href="#" class="w3-bar-item w3-button">NEWS </a>
+        <a href="#" class="w3-bar-item w3-button">SITEMAP</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="service.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SITEMAP</a>
+</div>
+
+<h2>MY SERVICES</h2>
+<ul>
+  <button class="accordion">Section 1 |<b>🎬 YOUTUBE</b> | 👇</button>
+<div class="panel">
+  <div style="background-image: url(RS13.jpg);width: 200px;height: 100px;background-size: cover;"></div>
+  <p>🎬 Hey, I am D.M. Ravindu Sathsara Vijesundara.Thanks for visiting and sure to subscribe and join with as for daily tech rewevs, Video Editing ,photos Editin, music songs playing and Youtube growth videos , vehicle videos ,funny vedieos and actress videos.....😊
+
+    <br>🔰📢 For Official purpose , Sponsorships & Offers , contact me=<br>
+    
+    ☑️ email  ravindusathsara53@gmail.com<br>
+    
+    ☎️ whatsapp (msg only )=  +94778008339</p>
+</div>
+
+<button class="accordion">Section 2 |<b>💲 BINANCE </b>| 👇 </button>
+<div class="panel">
+  <div style="background-image: url(RS12.png);width: 250px;height: 150px;background-size: cover;"></div>
+  <p>💲You can find all the tournaments in binance from us Learn how to create a $binance account $How to convert USDT in your binance account to cash from us.</p>
+</div>
+
+<button class="accordion">Section 3 |<b>💻 WEB DIVELOP </b>| 👇</button>
+<div class="panel">
+  <div style="background-image: url(RS14.png);width: 250px;height: 150px;background-size: cover;"></div>
+  <p>💻We can make any kind of website you want.</p>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://wa.link/3vdggl" target="_blank">RAVIDU SATHSARA</a></p>
+
+  
+  <p>Hello everybody!</p>
+  <div id="google_translate_element"></div>
+  <p>Translate this page:</p>
+  
+  
+  
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+  
+</footer>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  
+  }
+
+
+</script>
+
+</body>
+</html>
