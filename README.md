@@ -1,6 +1,6 @@
 ## RAVIDU SATHSARA
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+RAVIDU╺+SATHSARA+-+WEBSITE.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+RAVIDU SATHSARA;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+D.M.Ravidu Sathsara;EveloCode)]
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝐖𝐞𝐥𝐜𝐨𝐦𝐞+𝐓𝐨+RAVIDU╺+SATHSARA+-+WEBSITE.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+RAVIDU SATHSARA;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+D.M.Ravidu Sathsara;EveloCode)];EveloCode)](http://www.reddragon.uf.uk.eu.org/)
 
 
 <p align="center">
@@ -8,3 +8,4 @@
 </p>
 
 ## WELCOME EVRIYAN
+
