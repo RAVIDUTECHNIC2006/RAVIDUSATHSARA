@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>RAVIDU SATHSARA</title><link rel="icon" href="RS7.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+      html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    
+      </style>
+      </head>
+  </head>
+    
+    
+  <body>
+    <div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="service.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SERVICES</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">PERSONAL INFOMTION</a>
+        <a href="#" class="w3-bar-item w3-button">NEWS </a>
+        <a href="#" class="w3-bar-item w3-button">SITEMAP</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="service.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICES</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SITEMAP</a>
+</div><br><br>
+
+
+
+<div class="w3-modal-content w3-animate-top w3-card-4">
+<h2 style="text-align:center"> CONTACT FOR ME</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="RS20.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>RAVIDU SATHSARA</h2>
+        <p class="title">MY PERSONAL WHATSAPP NUMBER</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME,CAN I HELP YOU</p>
+        <p><a href="https://wa.link/3vdggl"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="RS18.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>RAVIDU SATHSARA</h2>
+        <p class="title"> MY PERSONAL FACEBOOK ACOUNT</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p><br>
+        <p><a href="https://www.facebook.com/profile.php?id=100089509295200"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div> 
+  <div class="column">
+    <div class="card">
+      <img src="RS19.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>RAVIDU SATHSARA</h2>
+        <p class="title"> MY PERSONAL TELIGRAM ACOUNT</p>
+        <p>YOU CAN DIRECT YOUR PROBLEMS TO ME</p><br>
+        <p><a href="https://t.me/Ravidusathsara"><button class="button">Contact</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="w3-modal-content w3-animate-top w3-card-4">
+     
+
+   
+  <div class="row">
+    <div class="column"> 
+     
+    <img src="RS16.jpg" style="width:100%">
+  </div>
+  <div class="column">
+        <form action="mailto:rsathsara835@gmail.com" method="post" enctype="text/plain">
+          <div class="container">
+            <h2>SEND EMAIL</h2></div>
+          Your Name:<br><input type="text" name="MY NAME : " placeholder="Enter your name"> <br>
+           Your Country:<br><input type="text" name="MY COUNTRY : " placeholder="Enter your country"> <br>
+           Your Massege:<br><input type="text" name="MASSEGE : " placeholder="Enter your massege"><br>
+           <input type="submit" value="Send">
+        </form>
+      </div>
+    </div>
+  </div>
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://wa.link/3vdggl" target="_blank">RAVIDU SATHSRA</a></p>
+  <p>Hello everybody!</p>
+  <div id="google_translate_element"></div>
+  <p>Translate this page:</p>
+  
+</footer>  
+  
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+</footer>
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  
+  }
+</script>
+
+</body>
+</html>
+   </body>
+</html>
