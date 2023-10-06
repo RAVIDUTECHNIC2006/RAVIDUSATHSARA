@@ -10,6 +10,64 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+
+     
+      
+      * {
+        box-sizing: border-box;
+      }
+      /* Style inputs */
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #034336;
+      }
+      
+      /* Style the container/contact section */
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+      /* Create two columns that float next to eachother */
+      .column {
+        float: left;
+        width: 50%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }    
+      
 </style>
 
 </head>
@@ -84,7 +142,7 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-row w3-padding-32">
       <div class="w3-third">
         <p>MY PET LOGO </p>
-        <img src="RS7.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+        <img src="Rr.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
         <p>MY PICTURE</p>
@@ -110,26 +168,24 @@ body {font-family: "Lato", sans-serif}
       </div>
 
 
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
+      
+   <div>
+    <div class="w3-col m6">
+      <div class="row">
+      
+      <div class="column">
+            <form action="mailto:rsathsara835@gmail.com" method="post" enctype="text/plain">
+              Your Name:<br><input type="text" name="MY NAME : " placeholder="Enter your name"> <br>
+              Your Massege:<br><input type="text" name="MASSEGE : " placeholder="Enter your massege"><br>
+               <input type="submit" value="Send">
+            </form>
           </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
+        </div>
+            </div>
+   </div>
 <!-- End Page Content -->
 </div>
+
 
 
 <!-- Footer -->
@@ -142,13 +198,13 @@ body {font-family: "Lato", sans-serif}
   <i class="fa fa-linkedin w3-hover-opacity"></i>
   <p class="w3-medium">Powered by <a href="https://wa.link/3vdggl" target="_blank">RAVIDU SATHSARA</a></p>
 
-  
+ 
   <p>Hello everybody!</p>
   <div id="google_translate_element"></div>
   <p>Translate this page:</p>
   
-  
-  
+</footer>
+
   <script type="text/javascript">
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
